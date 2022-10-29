@@ -154,13 +154,9 @@ def predict(predict_sentence):
 import pandas as pd
 import io
 
-# input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/valid_1st.csv') #valid_data
-# input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/1점_닥터독 피부모질 사료.csv') #valid_data
-# input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Train_data/4점_내추럴발란스 오리지날 울트라 그레인프리 닭고기 포뮬라 큰알갱이.csv')
-# input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Valid_data/valid_2.csv')
+
 input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Valid_data/로얄캐닌 유리너리 SO .csv')
-# input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Valid_data/1-4 오리젠 퍼피.csv')
-# input_data = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Valid_data/valid_1st.csv')
+
 
 input_data = input_data.drop(['Unnamed: 0'], axis = 1)
 input_data = input_data.drop(['name'], axis = 1)
